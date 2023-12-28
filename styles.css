@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    background-color: #212529;
+    color: white;
+}
+
+.form-group:focus {
+    background-color: white;
+    color: black;
+    border: none;
+}
